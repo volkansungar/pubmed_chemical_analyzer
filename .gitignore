@@ -1,0 +1,73 @@
+# --- General ---
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# --- Python / Backend ---
+
+# Virtual Environment
+# This directory contains all the Python packages for your project and can be very large.
+# It should always be recreated from requirements.txt, not stored in Git.
+venv/
+*/venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+# This file contains secrets like API keys and should NEVER be committed to Git.
+.env
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+
+# --- Node.js / React Frontend ---
+
+# Node modules
+# This directory is massive and contains all JavaScript dependencies.
+# It should always be recreated from package.json by running `npm install`.
+node_modules/
+*/node_modules/
+
+# React build output
+build/
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# --- IDE & Editor Configurations ---
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+
+# --- Operating System Files ---
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

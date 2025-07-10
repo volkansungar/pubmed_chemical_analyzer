@@ -1,0 +1,16 @@
+# Web framework ve veri işleme için
+fastapi
+uvicorn
+
+# Veri doğrulama ve ayarlar için
+pydantic
+pydantic-settings
+
+# HTTP istekleri için
+requests
+
+# NLP için
+spacy
+
+# Diğer potansiyel ihtiyaçlar
+python-dotenv
