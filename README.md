@@ -6,11 +6,6 @@ A comprehensive toolkit for analyzing chemical data in PubMed articles. This pro
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Repository Structure](#repository-structure)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -44,19 +39,3 @@ A comprehensive toolkit for analyzing chemical data in PubMed articles. This pro
    npm install
    cd ..
    ```
-
-## Usage
-
-> _Replace this section with actual usage details specific to your project implementation._
-
-- Run the main analysis pipeline:
-  ```bash
-  python analyze.py --input data/pubmed_sample.xml
-  ```
-- Launch the web interface:
-  ```bash
-  # Ensure backend and frontend are both set up
-  python app.py            # For backend (Flask, FastAPI, etc.)
-  cd frontend && npm start # For frontend (React, Vue, etc.)
-  ```
-- Example output, configuration, and customization can be found in the `/examples` and `/docs` directories.
